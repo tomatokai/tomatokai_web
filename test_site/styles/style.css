@@ -1,0 +1,19 @@
+p,li,h1 {
+	color:red;
+}
+
+#head1{
+	color:green;
+}
+
+.pblue{
+	color:blue;
+}
+
+img[src='images/tomatokai_icon.jpg']{
+	width:200px;
+}
+
+p:hover{
+	color:green;
+}
