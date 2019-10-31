@@ -1,5 +1,33 @@
-p,li,h1 {
-	color:red;
+html{
+	font-size:10px;
+
+	font-family:'Open Sans',sans-serif;
+
+	background-color:#efffff;
+
+}
+
+body{
+	width:600px;
+	margin:20px auto;
+	background-color:#fff;
+	padding:0 20px 20px 20px;
+	border:2px solid green;
+}
+
+h1 {
+	font-size:28px;
+	margin:0;
+	padding:20px 0;
+	color:green;
+	text-align: center;
+
+}
+
+p,li{
+	font-size:16px;
+	line-height:2;
+	letter-spacing:1px;
 }
 
 #head1{
@@ -11,9 +39,22 @@ p,li,h1 {
 }
 
 img[src='images/tomatokai_icon.jpg']{
-	width:200px;
+	height: 250px;
+}
+
+
+img{
+	display:block;
+	margin:0 auto;
+	height:250px;
 }
 
 p:hover{
 	color:green;
+}
+
+button {
+	width:200px;
+	margin:20px 0;
+	letter-spacing: 1px;
 }
